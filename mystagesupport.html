@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyStage Support Center</title>
+  <style>
+    :root{--bg:#ffffff;--primary:#0b84ff;--accent:#0466d6;--muted:#666;} 
+    body{font-family:Inter,system-ui,Arial,sans-serif;background:var(--bg);color:#111;margin:0;padding:0}
+    header{background:linear-gradient(90deg,var(--primary),#4fb3ff);color:#fff;padding:28px 20px;display:flex;gap:16px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--primary);font-weight:700}
+    .container{max-width:980px;margin:28px auto;padding:0 18px}
+    h1{margin:0 0 6px;font-size:28px}
+    p.lead{color:var(--muted);margin-top:6px}
+    section.card{background:#f8fbff;border-radius:12px;padding:18px;margin:16px 0;box-shadow:0 4px 18px rgba(11,132,255,0.08)}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .contact{background:#fff;border-radius:10px;padding:14px;border:1px solid #e6f0ff}
+    a.button{display:inline-block;background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none}
+    footer{padding:18px;text-align:center;color:var(--muted);font-size:13px}
+    pre{white-space:pre-wrap;font-size:13px}
+    details{margin-top:12px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr} .contact{order:-1}}
+    .lang-toggle{float:right}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">M</div>
+    <div>
+      <div style="display:flex;gap:12px;align-items:center"><h2 style="margin:0">MyStage</h2><span style="opacity:0.95">— Support Center</span></div>
+      <p style="margin:6px 0 0;color:rgba(255,255,255,0.95)">Your Day. Your Stage.</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="card">
+      <h1>Welcome to MyStage Support</h1>
+      <p class="lead">This page contains official support, Privacy Policy and Terms for the MyStage app. If you need help, contact the support details on the right.</p>
+
+      <div class="grid">
+        <div>
+          <h3>About MyStage</h3>
+          <p>MyStage is a social platform where users can post photos, videos and short updates while the community votes to highlight one "Main Star" per day. MyStage helps creators, users and local businesses get visibility and grow their audience.</p>
+
+          <h3>Key Features</h3>
+          <ul>
+            <li>Daily Spotlight (Main Star)</li>
+            <li>Post images, videos and text</li>
+            <li>Community voting, likes and comments</li>
+            <li>Public profiles and discovery</li>
+            <li>Business promotion & organic reach</li>
+          </ul>
+
+          <h3>Data & Security (Short)</h3>
+          <p>We store user accounts, posts, comments, likes and engagement analytics in Supabase. Data is used only to provide app features and to improve the platform. We do not sell personal information.</p>
+
+          <details>
+            <summary><strong>Privacy Policy (English)</strong></summary>
+            <div style="margin-top:8px">
+              <h4>Privacy Policy — MyStage</h4>
+              <p><strong>Last updated:</strong> December 2025</p>
+              <p>MyStage collects account information (name, email, profile photo), user-generated content (posts, comments, likes), usage & analytics data, and device identifiers. All data is securely stored in Supabase and is used to operate and improve the service.</p>
+              <p>We do not sell personal data. Data may be shared only to comply with law or to prevent abuse. Users can request access, correction or deletion of their data by contacting support.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary><strong>Privacy Policy (ગુજરાતી)</strong></summary>
+            <div style="margin-top:8px">
+              <h4>પ્રાઈવસી પોલિસી — MyStage</h4>
+              <p><strong>છેલ્લું અપડેટ:</strong> ડિસેમ્બર 2025</p>
+              <p>MyStage ખાતા જાણકારી (નામ, ઈમેલ, પ્રોફાઇલ ફોટો), યુઝર કન્ટેન્ટ (પોસ્ટ, કોમેન્ટ, લાઈક), ઉપયોગ અને ડિવાઇસ માહિતી એકત્ર કરે છે અને તેને Supabase પર સુરક્ષિત રીતે સંગ્રહિત કરે છે. ડેટા ફક્ત એપ ફિચર માટે અને સેવા સુધારવા માટે વાપરીએ છીએ.</p>
+              <p>અમારા દ્વારા વ્યકિતગત ડેટા વેચાતો નથી. કાયદા અથવા दુરુપયોગ અટકાવવા માટે જ જ મુશ્કેલીઓ માટે ડેટા શેર થઈ શકે છે. ડેટા ઍક્સેસ અથવા મિટાવવાની વિનંતી માટે સપોર્ટ પર સંપર્ક કરો.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary><strong>Terms & Conditions (English)</strong></summary>
+            <div style="margin-top:8px">
+              <h4>Terms & Conditions — MyStage</h4>
+              <ol>
+                <li>Users must be 13+ to use MyStage.</li>
+                <li>Users are responsible for content they post.</li>
+                <li>Offensive, illegal or copyrighted content is prohibited.</li>
+                <li>We may remove content or suspend accounts that violate rules.</li>
+                <li>App features may change; we are not liable for misuse.</li>
+              </ol>
+            </div>
+          </details>
+
+          <details>
+            <summary><strong>Terms & Conditions (ગુજરાતી)</strong></summary>
+            <div style="margin-top:8px">
+              <h4>Terms & Conditions — MyStage</h4>
+              <ol>
+                <li>MyStage નો ઉપયોગ 13 વર્ષથી ઉપરના યુઝર્સ માટે જ છે.</li>
+                <li>પોસ્ટ કરેલી માહિતી માટે યુઝર જવાબદાર છે.</li>
+                <li>અપમાનજનક અથવા ગેરકાનૂની કન્ટેન્ટ મનાઇ છે.</li>
+                <li>નિયમ ભંગ થતા કન્ટેન્ટ હટાવી શકીએ છીએ.</li>
+                <li>એપ ફીચર્સ સમયાંતરે બદલાઈ શકે છે.</li>
+              </ol>
+            </div>
+          </details>
+
+        </div>
+
+        <aside class="contact">
+          <h4>Contact & Support</h4>
+          <p><strong>Developer:</strong> Utsav Thesiya</p>
+          <p><strong>Email:</strong> <a href="mailto:utsavthesiya3@gmail.com">utsavthesiya3@gmail.com</a></p>
+          <p><strong>Phone:</strong> +91 63549 60894</p>
+          <p><strong>Data Storage:</strong> Supabase</p>
+          <p style="margin-top:8px"><a class="button" href="mailto:utsavthesiya3@gmail.com">Contact Support</a></p>
+
+          <h4 style="margin-top:18px">Quick Links</h4>
+          <ul style="padding-left:18px">
+            <li><a href="#">Privacy Policy (EN)</a></li>
+            <li><a href="#">Privacy Policy (ગુજરાતી)</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+
+          <p style="margin-top:10px;font-size:13px;color:var(--muted)">Response time: within 48 hours on working days.</p>
+        </aside>
+
+      </div>
+    </section>
+
+    <footer>
+      © MyStage • Built by Utsav Thesiya — Contact: <a href="mailto:utsavthesiya3@gmail.com">utsavthesiya3@gmail.com</a>
+    </footer>
+  </div>
+</body>
+</html>
